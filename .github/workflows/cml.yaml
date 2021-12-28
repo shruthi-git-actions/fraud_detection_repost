@@ -28,7 +28,7 @@ jobs:
           dvc pull
 
           
-          # Reproduce pipeline if any changes detected in the dependencies
+          # Reproduce pipeline if any changes detected in  dependencies
           dvc repro 
           
           git fetch --prune --unshallow
