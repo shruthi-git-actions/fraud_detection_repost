@@ -27,10 +27,23 @@ stages:
     outs:
       - auc.png
       - confusion_mat.png
-    plots:
+    
+
+    metrics:   
+
       - Output/Accuracy.json:
           cache: false
-          
+
+  
+
+
+
+    plots:    
+
+      - plots.json:
+          cache: false
+          x: fpr
+          y: tpr          
 
 
 
