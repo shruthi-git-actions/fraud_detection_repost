@@ -32,8 +32,8 @@ stages:
       md5: 25515342eb89694cbb8fba76fde0ae65
       size: 143088
     - path: fraud_svm_test.py
-      md5: 92fae4af2d12b06b6dadd91ff7147da9
-      size: 2883
+      md5: cee1dce2f435b11ab313ed9b194ea071
+      size: 3186
     outs:
     - path: Output/Accuracy.json
       md5: 6e79723da0eca3533d5a1e4966ac7060
@@ -44,3 +44,6 @@ stages:
     - path: confusion_mat.png
       md5: 78af8b0d641c54190286a301d55a8097
       size: 14034
+    - path: plots.json
+      md5: 5882e5db9359aef601f976a9ff580d55
+      size: 346
